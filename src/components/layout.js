@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import { default as Navbar } from "./Navbar/NavbarIndex"
 import "./layout.css"
+import { GlobalStyle } from "./global"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,6 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <GlobalStyle />
       <Navbar />
       <main>{children}</main>
     </>

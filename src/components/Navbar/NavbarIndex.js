@@ -7,7 +7,7 @@ function NavbarIndex() {
   return (
     <Nav>
       <StaticImage
-        src='../../images/logo.svg'
+        src='../../images/logo_hi.png'
         width={65}
         quality={100}
         formats={["auto", "webp", "avif"]}
@@ -27,7 +27,7 @@ function NavbarIndex() {
           <a href='#'>resume</a>
         </li>
       </NavUl>
-      <NavButton />
+      <NavButton to='#'>Let's Chat </NavButton>
     </Nav>
   )
 }
