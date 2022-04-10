@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { Link } from "gatsby"
+import styled from 'styled-components'
+import { Link } from 'gatsby'
 
 export const Nav = styled.nav`
   padding: 2rem 7rem;
@@ -14,11 +14,12 @@ export const NavLogo = styled.img`
 `
 
 export const NavUl = styled.ul`
-  font: 500 1.9rem "Poppins", sans-serif;
+  font: 500 1.9rem 'Poppins', sans-serif;
   margin: 0;
   display: flex;
   align-items: center;
   list-style: none;
+  z-index: 1;
 
   li {
     margin: 0rem 5rem;
@@ -41,4 +42,5 @@ export const NavButton = styled(Link)`
   letter-spacing: 0em;
   text-align: center;
   color: #151517;
+  z-index: 1;
 `

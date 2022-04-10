@@ -1,18 +1,18 @@
-import { Nav, NavLogo, NavUl, NavButton } from "./NavbarElements"
-import { StaticImage } from "gatsby-plugin-image"
+import { Nav, NavLogo, NavUl, NavButton } from './NavbarElements'
+import { StaticImage } from 'gatsby-plugin-image'
 
-import React from "react"
+import React from 'react'
 
-function NavbarIndex() {
+function Navbar() {
   return (
     <Nav>
       <StaticImage
         src='../../images/logo_hi.png'
         width={65}
         quality={100}
-        formats={["svg", "auto", "webp", "avif"]}
+        formats={['svg', 'auto', 'webp', 'avif']}
         alt='Sal Castoro Logo'
-        style={{ marginRight: "75px" }}
+        style={{ marginRight: '75px' }}
       />
       <NavUl>
         <li>
@@ -33,4 +33,4 @@ function NavbarIndex() {
   )
 }
 
-export default NavbarIndex
+export default Navbar
