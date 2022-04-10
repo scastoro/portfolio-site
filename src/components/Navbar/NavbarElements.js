@@ -24,10 +24,14 @@ export const NavUl = styled.ul`
   li {
     margin: 0rem 5rem;
     font-size: 1.9rem;
+
+    &:hover {
+      opacity: 0.75;
+    }
   }
 `
 
-export const NavButton = styled(Link)`
+export const StyledButton = styled(Link)`
   width: 14rem;
   height: 3rem;
   display: flex;
@@ -43,4 +47,8 @@ export const NavButton = styled(Link)`
   text-align: center;
   color: #151517;
   z-index: 1;
+
+  &:hover {
+    opacity: 0.75;
+  }
 `

@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Hero from './Main/Index'
 import Header from './Header/index'
 import Projects from './Projects/Index'
+import About from './About'
 import './layout.css'
 import { GlobalStyle } from './global'
 
@@ -32,6 +33,7 @@ const Layout = ({ children }) => {
       <Header />
       <Hero />
       <Projects />
+      <About />
     </>
   )
 }

@@ -1,4 +1,4 @@
-import { Nav, NavLogo, NavUl, NavButton } from './NavbarElements'
+import { Nav, NavUl, StyledButton } from './NavbarElements'
 import { StaticImage } from 'gatsby-plugin-image'
 
 import React from 'react'
@@ -28,7 +28,7 @@ function Navbar() {
           <a href='#'>resume</a>
         </li>
       </NavUl>
-      <NavButton to='#'>Let's Chat </NavButton>
+      <StyledButton to='#'>Let's Chat </StyledButton>
     </Nav>
   )
 }

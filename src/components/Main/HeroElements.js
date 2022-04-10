@@ -1,7 +1,7 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const HeroContainer = styled.section`
-  padding: 14rem 0;
+  padding: 20rem 0;
   color: #f8f8f8;
   background-color: #151517;
   display: flex;
@@ -20,12 +20,12 @@ export const HeroText = styled.section`
 
   h1 {
     margin-bottom: 0;
-    font: 200 6.4rem "Oswald", sans-serif;
+    font: 200 6.4rem 'Oswald', sans-serif;
   }
 
   h2 {
     margin: -0.75rem 0 0 0;
-    font: 500 2.2rem "Source Code Pro", sans-serif;
+    font: 500 2.2rem 'Source Code Pro', sans-serif;
     color: #45ddf8;
   }
 
