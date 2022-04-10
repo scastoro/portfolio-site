@@ -6,8 +6,58 @@ import Project from './Project'
 function Projects() {
   return (
     <ProjectsContainer>
-      <StyledProject />
-      <StyledProject />
+      <StyledProject
+        title='Book Bazaar'
+        summary='
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+          harum!
+        '
+        description='
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ut
+            distinctio nam quibusdam asperiores. Corrupti, debitis provident
+            eum, esse molestiae accusamus eligendi unde voluptas iste sunt quis
+            officiis! Facere, porro.
+          '
+      />
+      <StyledProject
+        title='Book Bazaar'
+        summary='
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+          harum!
+        '
+        description='
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ut
+            distinctio nam quibusdam asperiores. Corrupti, debitis provident
+            eum, esse molestiae accusamus eligendi unde voluptas iste sunt quis
+            officiis! Facere, porro.
+          '
+      />
+      <StyledProject
+        title='Book Bazaar'
+        summary='
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+          harum!
+        '
+        description='
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ut
+            distinctio nam quibusdam asperiores. Corrupti, debitis provident
+            eum, esse molestiae accusamus eligendi unde voluptas iste sunt quis
+            officiis! Facere, porro.
+          '
+      />
+      <StyledProject
+        title='Book Bazaar'
+        summary='
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+          harum!
+        '
+        description='
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ut
+            distinctio nam quibusdam asperiores. Corrupti, debitis provident
+            eum, esse molestiae accusamus eligendi unde voluptas iste sunt quis
+            officiis! Facere, porro.
+          '
+      />
     </ProjectsContainer>
   )
 }

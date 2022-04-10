@@ -42,4 +42,26 @@ export const HoverText = styled.section`
 
 export const ProjectText = styled.section`
   color: #f8f8f8;
+  padding: 2rem 4rem 0;
+
+  a {
+    background-color: #45ddfb;
+    border-radius: 25px;
+    font: 600 1.4rem 'Open Sans', sans-serif;
+    color: #151517;
+    padding: 0.75rem 2.2rem;
+
+    .gatsby-image-wrapper {
+      margin-right: 0.25rem;
+    }
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+  .links {
+    margin: 3rem 0 4rem 0;
+    display: flex;
+    justify-content: space-around;
+  }
 `
