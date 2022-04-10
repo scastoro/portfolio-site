@@ -11,7 +11,7 @@ function NavbarIndex() {
         width={65}
         quality={100}
         formats={["auto", "webp", "avif"]}
-        alt='A Gatsby astronaut'
+        alt='Sal Castoro Logo'
       />
       <NavUl>
         <li>

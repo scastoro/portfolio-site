@@ -27,8 +27,11 @@ export const NavUl = styled.ul`
 `
 
 export const NavButton = styled(Link)`
-  width: 10rem;
+  width: 14rem;
   height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #f8f8f8;
   border-radius: 2px;
   font-family: Poppins;

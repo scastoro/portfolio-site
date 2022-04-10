@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import { default as Navbar } from "./Navbar/NavbarIndex"
+import Hero from "./Main/Index"
 import "./layout.css"
 import { GlobalStyle } from "./global"
 
@@ -28,7 +29,7 @@ const Layout = ({ children }) => {
     <>
       <GlobalStyle />
       <Navbar />
-      <main>{children}</main>
+      <Hero />
     </>
   )
 }
