@@ -10,8 +10,9 @@ function NavbarIndex() {
         src='../../images/logo_hi.png'
         width={65}
         quality={100}
-        formats={["auto", "webp", "avif"]}
+        formats={["svg", "auto", "webp", "avif"]}
         alt='Sal Castoro Logo'
+        style={{ marginRight: "75px" }}
       />
       <NavUl>
         <li>

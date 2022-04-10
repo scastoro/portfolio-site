@@ -21,7 +21,7 @@ export const NavUl = styled.ul`
   list-style: none;
 
   li {
-    margin-right: 5rem;
+    margin: 0rem 5rem;
     font-size: 1.9rem;
   }
 `

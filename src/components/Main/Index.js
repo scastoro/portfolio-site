@@ -1,19 +1,14 @@
 import React from "react"
 import { HeroContainer, HeroContent, HeroText } from "./HeroElements"
 import { StaticImage } from "gatsby-plugin-image"
+import Icon from "../../assets/main_logo.svg"
 
 function Hero() {
   return (
     <main>
       <HeroContainer>
         <HeroContent>
-          <StaticImage
-            src='../../images/hero_logo.png'
-            width={164}
-            quality={100}
-            formats={["auto", "webp", "avif"]}
-            alt='Hero Logo'
-          />
+          <Icon />
           <HeroText>
             <h1>Sal Castoro</h1>
             <h2>Full Stack Web Developer</h2>

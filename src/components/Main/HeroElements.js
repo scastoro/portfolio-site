@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const HeroContainer = styled.section`
-  padding: 10rem 0;
+  padding: 14rem 0;
   color: #f8f8f8;
   background-color: #151517;
   display: flex;
