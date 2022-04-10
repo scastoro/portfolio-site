@@ -9,9 +9,9 @@ import * as React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 
-import Navbar from './Navbar/Index'
 import Hero from './Main/Index'
 import Header from './Header/index'
+import Projects from './Projects/Index'
 import './layout.css'
 import { GlobalStyle } from './global'
 
@@ -31,6 +31,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Header />
       <Hero />
+      <Projects />
     </>
   )
 }
