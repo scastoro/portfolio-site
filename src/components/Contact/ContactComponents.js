@@ -33,18 +33,26 @@ export const ContactForm = styled.form`
 
   input,
   textarea {
+    width: 100%;
     background: #0d0d0d;
     border: none;
-    border-bottom: #f8f8f8 solid 1px;
-    margin-bottom: 1.5rem;
+    /* border-bottom: #f8f8f8 solid 1px; */
     color: white;
+    resize: none;
+    transition: padding-bottom 2s ease-in;
 
     &::placeholder {
       color: #f8f8f8;
       opacity: 1;
     }
     &:focus::placeholder {
-      color: transparent;
+      opacity: 0.75;
+    }
+    &:focus {
+      outline: none;
+    }
+    &:focus + .line {
+      transform: translateY(2px);
     }
   }
   fieldset {
@@ -53,10 +61,15 @@ export const ContactForm = styled.form`
     display: flex;
     gap: 4rem;
   }
+  .line {
+    width: 100%;
+    border-bottom: #f8f8f8 solid 1px;
+    margin-bottom: 1.5rem;
+  }
 `
 
 export const ContactButton = styled.button`
-  margin: 3rem 0;
+  margin: 3rem 33% 3rem 0;
   background: #45ddfb;
   border: none;
   border-radius: 2rem;
