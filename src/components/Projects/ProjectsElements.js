@@ -20,7 +20,6 @@ export const ProjectImageSection = styled.section`
 `
 
 export const HoverText = styled.section`
-  display: none;
   background: rgba(0, 0, 0, 0.9);
   color: #f8f8f8;
   padding: 0 7rem;

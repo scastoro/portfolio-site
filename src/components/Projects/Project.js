@@ -5,27 +5,33 @@ import { StaticImage } from 'gatsby-plugin-image'
 import PropTypes from 'prop-types'
 
 function Project({ className, title, summary, description }) {
-  const hoverRef = useRef()
-  const handleMouseEnter = () => {
-    hoverRef.current.style.display = 'block'
+  const [isShown, setIsShown] = useState(false)
+  const showHover = () => {
+    if (!isShown) {
+      setIsShown(true)
+    }
   }
-  const handleMouseLeave = () => {
-    hoverRef.current.style.display = 'none'
+  const hideHover = () => {
+    if (isShown) {
+      setIsShown(false)
+    }
   }
   return (
     <section className={className}>
       <ProjectImageSection
-        onMouseEnter={() => handleMouseEnter()}
-        onMouseLeave={() => handleMouseLeave()}
+        onMouseOverCapture={showHover}
+        onMouseLeave={hideHover}
       >
         <section>
           <StaticImage src='../../images/books.jpg' alt='' />
         </section>
 
-        <HoverText ref={hoverRef}>
-          <h3>{title}</h3>
-          <p>{description}</p>
-        </HoverText>
+        {isShown && (
+          <HoverText>
+            <h3>{title}</h3>
+            <p>{description}</p>
+          </HoverText>
+        )}
       </ProjectImageSection>
       <ProjectText>
         <h2>Book Bazaar</h2>
