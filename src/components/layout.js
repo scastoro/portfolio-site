@@ -15,6 +15,7 @@ import Projects from './Projects/Index'
 import About from './About'
 import './layout.css'
 import { GlobalStyle } from './global'
+import Contact from './Contact'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,6 +35,7 @@ const Layout = ({ children }) => {
       <Hero />
       <Projects />
       <About />
+      <Contact />
     </>
   )
 }
