@@ -16,6 +16,7 @@ import About from './About'
 import './layout.css'
 import { GlobalStyle } from './global'
 import Contact from './Contact'
+import Footer from './Footer'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -37,6 +38,7 @@ const Layout = ({ children }) => {
       <About />
       <Contact />
       {children}
+      <Footer />
     </>
   )
 }

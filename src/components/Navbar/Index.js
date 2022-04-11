@@ -10,7 +10,7 @@ function Navbar() {
         src='../../images/logo_hi.png'
         width={65}
         quality={100}
-        formats={['svg', 'auto', 'webp', 'avif']}
+        formats={['auto', 'webp', 'avif']}
         alt='Sal Castoro Logo'
         style={{ marginRight: '75px' }}
       />
