@@ -10,7 +10,7 @@ export const HeroContainer = styled.section`
   align-items: center;
 
   @media ${devices.mobileL} {
-    padding: 5rem;
+    padding: 4rem 5rem 5rem;
   }
 `
 export const HeroContent = styled.section`
@@ -23,7 +23,7 @@ export const HeroContent = styled.section`
     align-items: center;
 
     svg {
-      height: 130px;
+      height: 120px;
     }
   }
 `
@@ -47,5 +47,14 @@ export const HeroText = styled.section`
   a {
     display: inline-block;
     margin: 0.5rem 2rem 0 0;
+  }
+  @media ${devices.mobileL} {
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    a {
+      margin-left: 0.3rem;
+    }
   }
 `

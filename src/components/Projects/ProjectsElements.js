@@ -7,17 +7,33 @@ export const ProjectsContainer = styled.section`
   margin: 0 2rem;
   gap: 2rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+
+  h2 {
+    grid-column: 1 / -1;
+    color: #f8f8f8;
+    font: 700 4.5rem 'Source Code Pro', sans-serif;
+    margin-bottom: 0;
+  }
 
   @media ${devices.mobileL} {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 100px repeat(4, 1fr);
   }
 `
 export const StyledProject = styled(Project)`
   display: flex;
   flex-direction: column;
   background-color: #0d0d0d;
+
+  h3 {
+    font: 700 3rem 'Source Code Pro', sans-serif;
+  }
+  p {
+    font: 400 1.5rem 'Poppins', sans-serif;
+  }
 `
 export const ProjectImageSection = styled.section`
   position: relative;
@@ -68,5 +84,17 @@ export const ProjectText = styled.section`
     margin: 3rem 0 4rem 0;
     display: flex;
     justify-content: space-around;
+  }
+  @media ${devices.mobileL} {
+    padding: 1rem 3rem 0;
+
+    .links {
+      justify-content: space-between;
+
+      a {
+        font-size: 1.25rem;
+        padding: 0.75rem 1.5rem;
+      }
+    }
   }
 `

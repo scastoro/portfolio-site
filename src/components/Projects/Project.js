@@ -17,7 +17,7 @@ function Project({ className, title, summary, description }) {
     }
   }
   return (
-    <section className={className}>
+    <section id='projects' className={className}>
       <ProjectImageSection
         onMouseOverCapture={showHover}
         onMouseLeave={hideHover}
@@ -34,7 +34,7 @@ function Project({ className, title, summary, description }) {
         )}
       </ProjectImageSection>
       <ProjectText>
-        <h2>Book Bazaar</h2>
+        <h3>Book Bazaar</h3>
         <p>{summary}</p>
         <section className='links'>
           <a href='#'>

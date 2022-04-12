@@ -28,13 +28,13 @@ function Navbar() {
       </section>
       <NavUl style={{ display: displayNav || '' }}>
         <li>
-          <a href='#'>projects</a>
+          <a href='#projects'>projects</a>
         </li>
         <li>
-          <a href='#'>about</a>
+          <a href='#about'>about</a>
         </li>
         <li>
-          <a href='#'>skills</a>
+          <a href='#skills'>skills</a>
         </li>
         <li>
           <a href='#'>resume</a>
@@ -42,13 +42,13 @@ function Navbar() {
         {displayNav === 'block' ? (
           <li>
             {' '}
-            <StyledButton style={{ display: 'flex' }} to='#'>
+            <StyledButton style={{ display: 'flex' }} to='#contact'>
               Let's Chat
             </StyledButton>
           </li>
         ) : null}
       </NavUl>
-      <StyledButton to='#'>Let's Chat </StyledButton>
+      <StyledButton to='#contact'>Let's Chat </StyledButton>
     </Nav>
   )
 }

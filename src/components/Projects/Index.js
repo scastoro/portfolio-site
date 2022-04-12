@@ -1,11 +1,11 @@
 import { ProjectsContainer, StyledProject } from './ProjectsElements'
 
-import React, { useState } from 'react'
-import Project from './Project'
+import React from 'react'
 
 function Projects() {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer id='projects'>
+      <h2>Projects</h2>
       <StyledProject
         title='Book Bazaar'
         summary='

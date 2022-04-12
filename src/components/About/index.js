@@ -10,7 +10,7 @@ import {
 
 function About() {
   return (
-    <section className='about-me'>
+    <section className='about-me' id='about'>
       <AboutContainer>
         <StaticImage
           src='../../images/about_me.jpg'
@@ -36,7 +36,7 @@ function About() {
             unde labore.
           </p>
         </AboutText>
-        <AboutIcons>
+        <AboutIcons id='skills'>
           <StaticImage
             src='../../images/html_icon.png'
             width={49}

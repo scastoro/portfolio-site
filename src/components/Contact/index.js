@@ -9,7 +9,7 @@ import ContactIcon from '../../assets/contact_icon.svg'
 
 function Contact() {
   return (
-    <ContactSection>
+    <ContactSection id='contact'>
       <h2>Let's Chat</h2>
       <FormContainer>
         <ContactIcon />
