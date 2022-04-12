@@ -25,6 +25,18 @@ export const AboutText = styled.section`
   p {
     font: 400 1.7rem 'Poppins', sans-serif;
   }
+  @media ${devices.mobileL} {
+    padding: 1.75rem 3rem;
+
+    h2 {
+      font-size: 2.75rem;
+      margin-bottom: 0.7rem;
+    }
+    p {
+      font-size: 1.4rem;
+      margin-bottom: 0.7rem;
+    }
+  }
 `
 
 export const AboutIcons = styled.section`

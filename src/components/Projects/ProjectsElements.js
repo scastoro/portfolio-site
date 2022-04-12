@@ -59,6 +59,19 @@ export const HoverText = styled.section`
     font: 400 1.35rem 'Poppins', sans-serif;
     color: #e3e3e3;
   }
+
+  @media ${devices.mobileL} {
+    padding: 1rem;
+
+    h3 {
+      margin: 0 0 1rem 0;
+      font-size: 2.75rem;
+      line-height: 100%;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
 `
 
 export const ProjectText = styled.section`
@@ -89,12 +102,19 @@ export const ProjectText = styled.section`
     padding: 1rem 3rem 0;
 
     .links {
+      margin: 2rem 0 3rem 0;
       justify-content: space-between;
 
       a {
         font-size: 1.25rem;
         padding: 0.75rem 1.5rem;
       }
+    }
+    h3 {
+      font-size: 2.8rem;
+    }
+    p {
+      font-size: 1.45rem;
     }
   }
 `

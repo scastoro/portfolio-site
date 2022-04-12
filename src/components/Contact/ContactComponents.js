@@ -13,6 +13,11 @@ export const ContactSection = styled.section`
     font: 700 3rem 'Source Code Pro', sans-serif;
     margin: 5rem 0 4rem;
   }
+  @media ${devices.mobileL} {
+    h2 {
+      margin: 2.5rem;
+    }
+  }
 `
 
 export const FormContainer = styled.section`
@@ -27,6 +32,7 @@ export const FormContainer = styled.section`
     margin-top: 0.5rem;
   }
   @media ${devices.mobileL} {
+    width: 85%;
     svg {
       display: none;
     }
@@ -72,6 +78,11 @@ export const ContactForm = styled.form`
     border-bottom: #f8f8f8 solid 1px;
     margin-bottom: 1.5rem;
   }
+  @media ${devices.mobileL} {
+    fieldset {
+      display: block;
+    }
+  }
 `
 
 export const ContactButton = styled.button`
@@ -87,5 +98,8 @@ export const ContactButton = styled.button`
 
   &:hover {
     opacity: 0.75;
+  }
+  @media ${devices.mobileL} {
+    margin: 2rem 0;
   }
 `

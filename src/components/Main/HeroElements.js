@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { devices } from '../Styles/breakpoints'
 
 export const HeroContainer = styled.section`
-  padding: 20rem 0;
+  margin: 24rem 0;
   color: #f8f8f8;
   background-color: #151517;
   display: flex;
@@ -10,7 +10,7 @@ export const HeroContainer = styled.section`
   align-items: center;
 
   @media ${devices.mobileL} {
-    padding: 4rem 5rem 5rem;
+    margin: 10rem 4rem 13rem;
   }
 `
 export const HeroContent = styled.section`
