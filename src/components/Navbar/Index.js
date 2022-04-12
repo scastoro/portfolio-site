@@ -42,7 +42,7 @@ function Navbar() {
         {displayNav === 'block' ? (
           <li>
             {' '}
-            <StyledButton style={{ display: displayNav }} to='#'>
+            <StyledButton style={{ display: 'flex' }} to='#'>
               Let's Chat
             </StyledButton>
           </li>

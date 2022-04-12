@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../Styles/breakpoints'
 
 export const ContactSection = styled.section`
   background: #0d0d0d;
@@ -24,6 +25,11 @@ export const FormContainer = styled.section`
   svg {
     align-self: flex-start;
     margin-top: 0.5rem;
+  }
+  @media ${devices.mobileL} {
+    svg {
+      display: none;
+    }
   }
 `
 

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../Styles/breakpoints'
 
 export const AboutContainer = styled.section`
   display: grid;
@@ -6,6 +7,11 @@ export const AboutContainer = styled.section`
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 1fr;
   gap: 2rem;
+
+  @media ${devices.mobileL} {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 300px);
+  }
 `
 export const AboutText = styled.section`
   color: #f8f8f8;
@@ -36,4 +42,8 @@ export const AboutLink = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  a {
+    display: block;
+  }
 `

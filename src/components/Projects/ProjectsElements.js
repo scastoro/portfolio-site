@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Project from './Project'
+import { devices } from '../Styles/breakpoints'
 
 export const ProjectsContainer = styled.section`
   display: grid;
@@ -7,6 +8,11 @@ export const ProjectsContainer = styled.section`
   gap: 2rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+
+  @media ${devices.mobileL} {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
 `
 export const StyledProject = styled(Project)`
   display: flex;

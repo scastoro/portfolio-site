@@ -13,7 +13,8 @@ function Header() {
       <StaticImage
         src='../../images/background_image.png'
         formats={['auto', 'webp', 'avif']}
-        style={{ marginTop: '-7rem', zIndex: '-1' }}
+        className='background-image'
+        alt='background image'
       />
     </StyledHeader>
   )
