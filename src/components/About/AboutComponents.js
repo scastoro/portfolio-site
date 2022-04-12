@@ -42,11 +42,25 @@ export const AboutText = styled.section`
 export const AboutIcons = styled.section`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr;
   justify-items: center;
   align-items: center;
   background: #0d0d0d;
   font: 500 1rem 'Poppins', sans-serif;
+
+  h3 {
+    grid-column: 1 / -1;
+    color: #f8f8f8;
+    font: 700 2.5rem 'Source Code Pro', sans-serif;
+    margin: 1.5rem 0 0 0;
+  }
+
+  @media ${devices.mobileL} {
+    h3 {
+      justify-self: start;
+      margin: 1.5rem 0 0 2.75rem;
+    }
+  }
 `
 
 export const AboutLink = styled.section`

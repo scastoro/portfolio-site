@@ -29,7 +29,6 @@ export const FormContainer = styled.section`
 
   svg {
     align-self: flex-start;
-    margin-top: 0.5rem;
   }
   @media ${devices.mobileL} {
     width: 85%;

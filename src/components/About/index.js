@@ -37,59 +37,60 @@ function About() {
           </p>
         </AboutText>
         <AboutIcons id='skills'>
+          <h3>Skills</h3>
           <StaticImage
-            src='../../images/html_icon.png'
-            width={49}
-            height={72}
+            src='../../images/skills-icons/html_icon.png'
+            width={37}
+            height={52}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
           />
           <StaticImage
-            src='../../images/css_icon.png'
-            width={40}
-            height={72}
+            src='../../images/skills-icons/css_icon.png'
+            width={36}
+            height={52}
             objectFit={'cover'}
             formats={['auto', 'webp', 'avif']}
           />
           <StaticImage
-            src='../../images/javascript_icon.png'
-            width={81}
-            height={76}
+            src='../../images/skills-icons/js_icon.png'
+            width={50}
+            height={50}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
           />
           <StaticImage
-            src='../../images/sql_icon.png'
-            width={34}
-            height={73}
+            src='../../images/skills-icons/react_icon.png'
+            width={56}
+            height={50}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
           />
           <StaticImage
-            src='../../images/html_icon.png'
-            width={49}
-            height={72}
+            src='../../images/skills-icons/ts_icon.png'
+            width={50}
+            height={50}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
           />
           <StaticImage
-            src='../../images/css_icon.png'
-            width={40}
-            height={72}
+            src='../../images/skills-icons/mongo_icon.png'
+            width={26}
+            height={57}
             objectFit={'cover'}
             formats={['auto', 'webp', 'avif']}
           />
           <StaticImage
-            src='../../images/javascript_icon.png'
-            width={81}
-            height={76}
+            src='../../images/skills-icons/node_icon.png'
+            width={50}
+            height={56}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
           />
           <StaticImage
-            src='../../images/sql_icon.png'
-            width={34}
-            height={73}
+            src='../../images/skills-icons/sql_icon.png'
+            width={48}
+            height={50}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
           />

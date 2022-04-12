@@ -18,9 +18,12 @@ export const StyledFooter = styled.footer`
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-left: 8%;
 
     .copyright {
       margin-top: 3rem;
+      width: 50%;
+      text-align: left;
     }
   }
 `
@@ -36,7 +39,6 @@ export const FooterContainer = styled.section`
     flex-direction: column;
     align-items: flex-start;
     width: 50%;
-    margin-left: 10rem;
 
     .logo {
       display: none;
@@ -64,13 +66,17 @@ export const HelloSection = styled.section`
     margin: 0 1rem 0;
     line-height: 1.75rem;
   }
-  p {
+  a {
     margin: 0.75rem 1rem 0;
     font: 400 1.35rem 'Poppins', sans-serif;
   }
   @media ${devices.mobileL} {
     margin-bottom: 3rem;
     padding: 0;
+
+    a {
+      font-size: 1.1rem;
+    }
   }
 `
 

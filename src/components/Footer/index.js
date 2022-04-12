@@ -13,7 +13,9 @@ function Footer() {
       <FooterContainer>
         <HelloSection>
           <h4>Say Hello</h4>
-          <p>salcastoro@protonmail.com</p>
+          <a href='mailto:salcastoro@protonmail.com'>
+            salcastoro@protonmail.com
+          </a>
         </HelloSection>
         <StaticImage
           src='../../images/logo_hi.png'
