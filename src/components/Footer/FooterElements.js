@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../Styles/breakpoints'
 
 export const StyledFooter = styled.footer`
   background: #0d0d0d;
@@ -11,6 +12,17 @@ export const StyledFooter = styled.footer`
     color: #c4c4c4;
     font: italic 400 1.2rem 'Poppins', sans-serif;
   }
+
+  @media ${devices.mobileL} {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .copyright {
+      margin-top: 3rem;
+    }
+  }
 `
 
 export const FooterContainer = styled.section`
@@ -19,6 +31,17 @@ export const FooterContainer = styled.section`
   align-items: center;
   width: 80%;
   margin: 0 auto;
+
+  @media ${devices.mobileL} {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-left: 10rem;
+
+    .logo {
+      display: none;
+    }
+  }
 `
 
 export const HelloSection = styled.section`
@@ -44,6 +67,10 @@ export const HelloSection = styled.section`
   p {
     margin: 0.75rem 1rem 0;
     font: 400 1.35rem 'Poppins', sans-serif;
+  }
+  @media ${devices.mobileL} {
+    margin-bottom: 3rem;
+    padding: 0;
   }
 `
 
@@ -74,5 +101,8 @@ export const SocialMediaSection = styled.section`
     &:hover {
       opacity: 0.75;
     }
+  }
+  @media ${devices.mobileL} {
+    margin: 0;
   }
 `

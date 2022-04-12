@@ -21,6 +21,7 @@ function Footer() {
           alt='Sal Castoro Logo'
           formats={['auto', 'webp', 'avif']}
           width={72}
+          className='logo'
         />
         <SocialMediaSection>
           <h4>social media</h4>

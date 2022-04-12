@@ -26,11 +26,17 @@ export const Nav = styled.nav`
     flex-direction: column;
     justify-content: space-around;
 
+    .mobile-container {
+      width: 100%;
+      padding: 0 2rem;
+    }
     .logo {
       margin-right: 4rem;
     }
     .menu-icon {
       display: block;
+      width: 80px;
+      margin-left: auto;
     }
   }
 `
@@ -61,9 +67,11 @@ export const NavUl = styled.ul`
   @media ${devices.mobileL} {
     flex-direction: column;
     display: none;
+    text-align: center;
+    margin-top: -4rem;
 
     li {
-      margin: 0;
+      margin: 1rem 0;
     }
   }
 `
