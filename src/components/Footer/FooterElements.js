@@ -35,6 +35,9 @@ export const FooterContainer = styled.section`
   width: 80%;
   margin: 0 auto;
 
+  @media ${devices.tabletL} {
+    margin-left: 7%;
+  }
   @media ${devices.mobileL} {
     flex-direction: column;
     align-items: flex-start;
@@ -107,6 +110,9 @@ export const SocialMediaSection = styled.section`
     &:hover {
       opacity: 0.75;
     }
+  }
+  @media ${devices.tabletL} {
+    margin-left: 27px;
   }
   @media ${devices.mobileL} {
     margin: 0;

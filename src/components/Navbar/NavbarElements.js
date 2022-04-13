@@ -72,16 +72,6 @@ export const NavUl = styled.ul`
       opacity: 0.75;
     }
   }
-  @media ${devices.mobileL} {
-    flex-direction: column;
-    display: none;
-    text-align: center;
-    margin-top: -4rem;
-
-    li {
-      margin: 1rem 0;
-    }
-  }
   @media ${devices.laptop} {
     li {
       margin: 0 3rem;
@@ -90,6 +80,17 @@ export const NavUl = styled.ul`
   @media ${devices.tabletL} {
     li {
       margin: 0 2rem;
+    }
+  }
+  @media ${devices.mobileL} {
+    flex-direction: column;
+    display: none;
+    text-align: center;
+    /* margin-top: -4rem; */
+
+    li {
+      margin: 1rem 0;
+      font-size: 2.2rem;
     }
   }
 `

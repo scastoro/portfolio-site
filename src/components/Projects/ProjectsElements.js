@@ -60,8 +60,8 @@ export const HoverText = styled.section`
     color: #e3e3e3;
   }
 
-  @media ${devices.mobileL} {
-    padding: 1rem;
+  @media ${devices.tabletL} {
+    padding: 1.5rem;
 
     h3 {
       margin: 0 0 1rem 0;
@@ -71,6 +71,9 @@ export const HoverText = styled.section`
     p {
       font-size: 1.3rem;
     }
+  }
+  @media ${devices.mobileL} {
+    padding: 1rem;
   }
 `
 
@@ -98,7 +101,7 @@ export const ProjectText = styled.section`
     display: flex;
     justify-content: space-around;
   }
-  @media ${devices.mobileL} {
+  @media ${devices.tablet} {
     padding: 1rem 3rem 0;
 
     .links {

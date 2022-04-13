@@ -25,6 +25,10 @@ export const AboutText = styled.section`
   p {
     font: 400 1.7rem 'Poppins', sans-serif;
   }
+  @media ${devices.tabletL} {
+    padding: 2rem 2.5rem;
+  }
+
   @media ${devices.mobileL} {
     padding: 1.75rem 3rem;
 
