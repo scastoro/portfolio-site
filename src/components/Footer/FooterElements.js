@@ -41,6 +41,7 @@ export const FooterContainer = styled.section`
   @media ${devices.mobileL} {
     flex-direction: column;
     align-items: flex-start;
+    margin: 0 auto;
     width: 50%;
 
     .logo {

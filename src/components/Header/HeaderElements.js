@@ -12,4 +12,14 @@ export const StyledHeader = styled.header`
       display: none;
     }
   }
+  @media ${devices.laptopL} {
+    .background-image {
+      margin-top: -11rem;
+    }
+  }
+  @media ${devices.desktop} {
+    .background-image {
+      margin-top: -14rem;
+    }
+  }
 `

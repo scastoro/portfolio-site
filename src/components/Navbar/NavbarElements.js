@@ -47,6 +47,15 @@ export const Nav = styled.nav`
       margin-right: 60px;
     }
   }
+
+  @media ${devices.laptopL} {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  @media ${devices.desktop} {
+    width: 65%;
+  }
 `
 export const NavLogo = styled.img`
   margin-left: 7rem;

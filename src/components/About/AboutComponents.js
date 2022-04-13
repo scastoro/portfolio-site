@@ -12,6 +12,19 @@ export const AboutContainer = styled.section`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 300px);
   }
+
+  @media ${devices.laptopL} {
+    width: 80%;
+    margin: 0 auto 10rem;
+  }
+
+  @media ${devices.desktop} {
+    width: 65%;
+  }
+
+  @media ${devices.desktopL} {
+    width: 50%;
+  }
 `
 export const AboutText = styled.section`
   color: #f8f8f8;

@@ -18,6 +18,19 @@ export const ContactSection = styled.section`
       margin: 2.5rem;
     }
   }
+
+  @media ${devices.laptopL} {
+    width: 80%;
+    margin: 0 auto 10rem;
+  }
+
+  @media ${devices.desktop} {
+    width: 65%;
+  }
+
+  @media ${devices.desktopL} {
+    width: 50%;
+  }
 `
 
 export const FormContainer = styled.section`
