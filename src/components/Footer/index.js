@@ -12,7 +12,7 @@ function Footer() {
     <StyledFooter>
       <FooterContainer>
         <HelloSection>
-          <h4>Say Hello</h4>
+          <h4>say hello</h4>
           <a href='mailto:salcastoro@protonmail.com'>
             salcastoro@protonmail.com
           </a>

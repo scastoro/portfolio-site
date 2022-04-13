@@ -39,6 +39,14 @@ export const Nav = styled.nav`
       margin-left: auto;
     }
   }
+  @media ${devices.tabletL} {
+    padding: 2rem 4rem;
+  }
+  @media ${devices.tablet} {
+    .logo {
+      margin-right: 60px;
+    }
+  }
 `
 export const NavLogo = styled.img`
   margin-left: 7rem;
@@ -74,6 +82,16 @@ export const NavUl = styled.ul`
       margin: 1rem 0;
     }
   }
+  @media ${devices.laptop} {
+    li {
+      margin: 0 3rem;
+    }
+  }
+  @media ${devices.tabletL} {
+    li {
+      margin: 0 2rem;
+    }
+  }
 `
 
 export const StyledButton = styled(Link)`
@@ -98,5 +116,9 @@ export const StyledButton = styled(Link)`
   }
   @media ${devices.mobileL} {
     display: none;
+  }
+  @media ${devices.tablet} {
+    width: 120px;
+    font-size: 16px;
   }
 `
