@@ -25,15 +25,17 @@ function About() {
         <AboutText>
           <h2>About Me</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dicta
-            eos vitae voluptate tempore totam. Vitae recusandae natus delectus
-            aperiam inventore praesentium commodi expedita itaque, omnis
-            repellendus! Inventore, placeat enim.
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet nemo
-            dolor exercitationem! Earum, minima magnam eius obcaecati laudantium
-            unde labore.
+            Hi, my name is Sal and I am a full stack web developer based out of
+            North Carolina, USA. I create full stack web apps for clients to
+            solve a variety of business needs. I specialize in the MERN stack
+            and I have experience with TypeScript, JavaScript, React, Jest,
+            React Testing Library, Node, Express, MongoDB, PostgreSQL and REST
+            APIs. I love learning and tinkering and I am always willing to try
+            out new technologies to build apps and expand my skill set. I am
+            also interested in VR, so I am looking into ways to integrate that
+            technology into my projects. Follow me on my social media to keep up
+            me. I am currently open to new opportunities, so feel free to reach
+            out via the contact form below.
           </p>
         </AboutText>
         <AboutIcons id='skills'>
@@ -44,6 +46,7 @@ function About() {
             height={52}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
+            alt='html icon'
           />
           <StaticImage
             src='../../images/skills-icons/css_icon.png'
@@ -51,6 +54,7 @@ function About() {
             height={52}
             objectFit={'cover'}
             formats={['auto', 'webp', 'avif']}
+            alt='css_icon'
           />
           <StaticImage
             src='../../images/skills-icons/js_icon.png'
@@ -58,6 +62,7 @@ function About() {
             height={50}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
+            alt='js icon'
           />
           <StaticImage
             src='../../images/skills-icons/react_icon.png'
@@ -65,6 +70,7 @@ function About() {
             height={50}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
+            alt='react icon'
           />
           <StaticImage
             src='../../images/skills-icons/ts_icon.png'
@@ -72,6 +78,7 @@ function About() {
             height={50}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
+            alt='typescript icon'
           />
           <StaticImage
             src='../../images/skills-icons/mongo_icon.png'
@@ -79,6 +86,7 @@ function About() {
             height={57}
             objectFit={'cover'}
             formats={['auto', 'webp', 'avif']}
+            alt='MongoDB Icon'
           />
           <StaticImage
             src='../../images/skills-icons/node_icon.png'
@@ -86,6 +94,7 @@ function About() {
             height={56}
             objectFit={'contain'}
             formats={['auto', 'webp', 'avif']}
+            alt='Node.js Icon'
           />
           <StaticImage
             src='../../images/skills-icons/sql_icon.png'

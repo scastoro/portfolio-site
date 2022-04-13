@@ -7,56 +7,56 @@ function Projects() {
     <ProjectsContainer id='projects'>
       <h2>Projects</h2>
       <StyledProject
-        title='Book Bazaar'
+        title='Blog API and Admin Panel'
         summary='
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          harum!
+          REST API that serves blog posts and Front-End site that consumes the API endpoints.
         '
         description='
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ut
-            distinctio nam quibusdam asperiores. Corrupti, debitis provident
-            eum, esse molestiae accusamus eligendi unde voluptas iste sunt quis
-            officiis! Facere, porro.
+          Rest API Built with Express and MongoDB. Allows for CRUD actions via HTTP Requests. 
+          Users are authenticated using PassportJS and express-jwt. Routes are protected with JWT authentication. Admin panel made with React using TypeScript, Context API, and Styled Components. Admin panel allows Author to create, update, view, and delete blog posts and comments on posts. 
           '
+        projectUrl='projects-1.jpg'
+      />
+      <StyledProject
+        title='Electronics Emporium'
+        summary='
+          An inventory management system for computer parts. Users can create, view,
+          update, and delete products. 
+        '
+        description='
+          A full stack application made with Node.js, Express, MongoDB, and Pug. Features
+          a form where users can enter new products. Users can see current products and update
+          product information. Products can also be viewed by category. All fields are validated server side using Express validator middleware. App uses the MVC pattern to generate views via controllers which access a MongoDB database. 
+          '
+        projectUrl='projects-2.jpg'
+      />
+      <StyledProject
+        title='Members Only'
+        summary='
+          Message board where all visitors to the site can view messages. Users can register
+          as members to be able to post. Admins can remove posts.
+        '
+        description='
+          Full stack application made with Node.js, Express, MongoDB, and EJS. User
+          information is stored in a MongoDB collection with hashed and salted passwords. Posts
+          are stored in another collection and the two collections are related to one 
+          another. The database requests are handled with the Mongoose ORM.   
+          '
+        projectUrl='projects-3.jpg'
       />
       <StyledProject
         title='Book Bazaar'
         summary='
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          harum!
+          A landing page and shop for a book store. Users can navigate 
+          from the landing page to the shop, add items to a cart and view the cart.
         '
         description='
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ut
-            distinctio nam quibusdam asperiores. Corrupti, debitis provident
-            eum, esse molestiae accusamus eligendi unde voluptas iste sunt quis
-            officiis! Facere, porro.
+          This application was built using React as the framework and React router to move
+          from page to page. The app was tested using Jest and React Testing Library. The 
+          design was created in figma and implemented using vanilla CSS. The  cart animation 
+          was implemented by using the React-Transitions-Group addon.
           '
-      />
-      <StyledProject
-        title='Book Bazaar'
-        summary='
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          harum!
-        '
-        description='
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ut
-            distinctio nam quibusdam asperiores. Corrupti, debitis provident
-            eum, esse molestiae accusamus eligendi unde voluptas iste sunt quis
-            officiis! Facere, porro.
-          '
-      />
-      <StyledProject
-        title='Book Bazaar'
-        summary='
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          harum!
-        '
-        description='
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ut
-            distinctio nam quibusdam asperiores. Corrupti, debitis provident
-            eum, esse molestiae accusamus eligendi unde voluptas iste sunt quis
-            officiis! Facere, porro.
-          '
+        projectUrl='projects-4.jpg'
       />
     </ProjectsContainer>
   )
