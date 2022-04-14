@@ -56,13 +56,13 @@ export const AboutText = styled.section`
     }
   }
   @media ${devices.mobileM} {
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
 
     h2 {
       font-size: 2rem;
     }
     p {
-      font-size: 1.25rem;
+      font-size: 1.2rem;
     }
   }
 `
