@@ -13,7 +13,13 @@ function Contact() {
       <h2>Let's Chat</h2>
       <FormContainer>
         <ContactIcon />
-        <ContactForm method='POST'>
+        <ContactForm
+          name='contact'
+          method='POST'
+          data-netlify='true'
+          data-netlify-honeypot='bot-field'
+        >
+          <input type='hidden' name='form-name' value='contact' />
           <div className='input-container'>
             <input
               type='text'
@@ -21,7 +27,6 @@ function Contact() {
               id='name'
               placeholder='Name*'
               required
-              autoComplete='off'
             />
             <div className='line'></div>
           </div>
@@ -33,18 +38,11 @@ function Contact() {
                 id='email'
                 placeholder='Email*'
                 required
-                autoComplete='off'
               />
               <div className='line'></div>
             </div>
             <div className='input-container'>
-              <input
-                type='phone'
-                name='phone'
-                id='phone'
-                placeholder='Phone'
-                autoComplete='off'
-              />
+              <input type='phone' name='phone' id='phone' placeholder='Phone' />
               <div className='line'></div>
             </div>
           </fieldset>
