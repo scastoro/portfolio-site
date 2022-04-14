@@ -16,6 +16,7 @@ function Projects() {
           Users are authenticated using PassportJS and express-jwt. Routes are protected with JWT authentication. Admin panel made with React using TypeScript, Context API, and Styled Components. Admin panel allows Author to create, update, view, and delete blog posts and comments on posts. 
           '
         imageUrl='projects-1.jpg'
+        codeUrl='https://github.com/scastoro/blog-admin'
       />
       <StyledProject
         title='Electronics Emporium'
@@ -28,6 +29,7 @@ function Projects() {
           product information, and add new products. Products can also be viewed by category. All fields are validated server side using Express validator middleware. App uses the MVC pattern to generate views via controllers which access a MongoDB database. 
           '
         imageUrl='projects-2.jpg'
+        codeUrl='https://github.com/scastoro/inventory-app'
       />
       <StyledProject
         title='Members Only'
@@ -42,6 +44,7 @@ function Projects() {
           another. The database requests are handled with the Mongoose ORM.   
           '
         imageUrl='projects-3.jpg'
+        codeUrl='https://github.com/scastoro/members-only'
       />
       <StyledProject
         title='Book Bazaar'
@@ -53,6 +56,7 @@ function Projects() {
           Website built with React and React router. The app was tested using Jest and React Testing Library. The design was created in figma and implemented using vanilla CSS. The cart animation was implemented by using the React-Transitions-Group library.
           '
         imageUrl='projects-4.jpg'
+        codeUrl='https://github.com/scastoro/book-bazaar'
       />
     </ProjectsContainer>
   )

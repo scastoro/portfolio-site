@@ -76,7 +76,7 @@ function Project({
             />
             View Project
           </a> */}
-          <a href={codeUrl || '#'}>
+          <a target='_blank' rel='noopener noreferrer' href={codeUrl || '#'}>
             <StaticImage
               src='../../images/code_icon.png'
               width={20}

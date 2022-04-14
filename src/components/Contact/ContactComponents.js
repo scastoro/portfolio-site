@@ -62,9 +62,7 @@ export const ContactForm = styled.form`
     width: 100%;
     background: #0d0d0d;
     border: none;
-    /* border-bottom: #f8f8f8 solid 1px; */
     color: white;
-    resize: none;
     transition: padding-bottom 2s ease-in;
 
     &::placeholder {

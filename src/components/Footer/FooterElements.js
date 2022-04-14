@@ -71,6 +71,7 @@ export const HelloSection = styled.section`
     line-height: 1.75rem;
   }
   a {
+    display: inline-block;
     margin: 0.75rem 1rem 0;
     font: 400 1.35rem 'Poppins', sans-serif;
   }

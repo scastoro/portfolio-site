@@ -17,6 +17,7 @@ export const StyledLink = styled.a`
   text-align: center;
   color: #151517;
   z-index: 1;
+  cursor: pointer;
 
   &:hover {
     opacity: 0.75;

@@ -105,7 +105,7 @@ function About() {
         </AboutIcons>
         <AboutLink>
           <StyledLink
-            target='blank'
+            target='_blank'
             rel='noopener noreferrer'
             to='https://1drv.ms/b/s!AvnRMsO1Aae5hYFhaqk6Ro_ERE5jqg?e=T4xVGk'
           >

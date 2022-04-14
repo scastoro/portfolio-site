@@ -39,7 +39,7 @@ function Navbar() {
         <li>
           <a
             href='https://1drv.ms/b/s!AvnRMsO1Aae5hYFhaqk6Ro_ERE5jqg?e=T4xVGk'
-            target='blank'
+            target='_blank'
             rel='noopener noreferrer'
           >
             resume
