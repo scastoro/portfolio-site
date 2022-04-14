@@ -21,6 +21,7 @@ export const ProjectsContainer = styled.section`
   @media ${devices.mobileL} {
     grid-template-columns: 1fr;
     grid-template-rows: 100px repeat(4, 1fr);
+    margin: 0;
   }
 
   @media ${devices.laptopL} {
@@ -74,11 +75,11 @@ export const HoverText = styled.section`
   }
 
   @media ${devices.tabletL} {
-    padding: 1.5rem;
+    padding: 1.25rem;
 
     h3 {
       margin: 0 0 1rem 0;
-      font-size: 2.75rem;
+      font-size: 2.25rem;
       line-height: 100%;
     }
     p {

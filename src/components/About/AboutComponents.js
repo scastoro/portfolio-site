@@ -11,6 +11,7 @@ export const AboutContainer = styled.section`
   @media ${devices.mobileL} {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 300px);
+    margin: 10rem 0;
   }
 
   @media ${devices.laptopL} {
@@ -43,15 +44,25 @@ export const AboutText = styled.section`
   }
 
   @media ${devices.mobileL} {
-    padding: 1.75rem 3rem;
+    padding: 1.5rem 2rem;
 
     h2 {
-      font-size: 2.75rem;
-      margin-bottom: 0.7rem;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
     }
     p {
-      font-size: 1.4rem;
-      margin-bottom: 0.7rem;
+      font-size: 1.3rem;
+      margin-bottom: 0;
+    }
+  }
+  @media ${devices.mobileM} {
+    padding: 1rem 2rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.25rem;
     }
   }
 `

@@ -14,6 +14,8 @@ export const ContactSection = styled.section`
     margin: 5rem 0 4rem;
   }
   @media ${devices.mobileL} {
+    margin: 0 0 10rem 0;
+
     h2 {
       margin: 2.5rem;
     }

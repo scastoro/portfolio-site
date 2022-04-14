@@ -24,9 +24,8 @@ function Projects() {
           update, and delete products. 
         '
         description='
-          A full stack application made with Node.js, Express, MongoDB, and Pug. Features
-          a form where users can enter new products. Users can see current products and update
-          product information. Products can also be viewed by category. All fields are validated server side using Express validator middleware. App uses the MVC pattern to generate views via controllers which access a MongoDB database. 
+          A full stack application made with Node.js, Express, MongoDB, and Pug.  Users can see current products, update
+          product information, and add new products. Products can also be viewed by category. All fields are validated server side using Express validator middleware. App uses the MVC pattern to generate views via controllers which access a MongoDB database. 
           '
         imageUrl='projects-2.jpg'
       />
@@ -51,10 +50,7 @@ function Projects() {
           from the landing page to the shop, add items to a cart and view the cart.
         '
         description='
-          This application was built using React as the framework and React router to move
-          from page to page. The app was tested using Jest and React Testing Library. The 
-          design was created in figma and implemented using vanilla CSS. The  cart animation 
-          was implemented by using the React-Transitions-Group addon.
+          Website built with React and React router. The app was tested using Jest and React Testing Library. The design was created in figma and implemented using vanilla CSS. The cart animation was implemented by using the React-Transitions-Group library.
           '
         imageUrl='projects-4.jpg'
       />
