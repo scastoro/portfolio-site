@@ -119,8 +119,11 @@ export const ProjectText = styled.section`
     display: flex;
     justify-content: space-around;
   }
+  p {
+    margin-bottom: 2rem;
+  }
   @media ${devices.tablet} {
-    padding: 1rem 3rem 1.5rem;
+    padding: 1rem 3rem 2rem;
 
     .links {
       justify-content: space-between;
