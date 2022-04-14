@@ -41,6 +41,7 @@ export const StyledProject = styled(Project)`
   display: flex;
   flex-direction: column;
   background-color: #0d0d0d;
+  height: 100%;
 
   h3 {
     font: 700 3rem 'Source Code Pro', sans-serif;
@@ -93,7 +94,11 @@ export const HoverText = styled.section`
 
 export const ProjectText = styled.section`
   color: #f8f8f8;
-  padding: 2rem 4rem 0;
+  padding: 2rem 4rem 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   a {
     background-color: #45ddfb;
@@ -111,15 +116,13 @@ export const ProjectText = styled.section`
     }
   }
   .links {
-    margin: 3rem 0 4rem 0;
     display: flex;
     justify-content: space-around;
   }
   @media ${devices.tablet} {
-    padding: 1rem 3rem 0;
+    padding: 1rem 3rem 1.5rem;
 
     .links {
-      margin: 2rem 0 3rem 0;
       justify-content: space-between;
 
       a {

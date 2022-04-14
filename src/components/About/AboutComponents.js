@@ -51,7 +51,7 @@ export const AboutText = styled.section`
       margin-bottom: 0.5rem;
     }
     p {
-      font-size: 1.3rem;
+      font-size: 1.25rem;
       margin-bottom: 0;
     }
   }

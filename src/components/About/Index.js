@@ -33,8 +33,8 @@ function About() {
             technologies to build apps and expand my skill set. I am also
             interested in VR, so I am looking into ways to integrate that
             technology into my projects. Follow me on my social media to keep up
-            me. I am currently open to new opportunities, so feel free to reach
-            out via the contact form below.
+            with me. I am currently open to new opportunities, so feel free to
+            reach out via the contact form below.
           </p>
         </AboutText>
         <AboutIcons id='skills'>

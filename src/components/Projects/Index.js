@@ -7,13 +7,14 @@ function Projects() {
     <ProjectsContainer id='projects'>
       <h2>Projects</h2>
       <StyledProject
-        title='Blog API and Admin Panel'
+        title='Blog API'
         summary='
           REST API that serves blog posts and Front-End site that consumes the API endpoints.
+          Posts can be created, updated, modified, and deleted.
         '
         description='
           Rest API Built with Express and MongoDB. Allows for CRUD actions via HTTP Requests. 
-          Users are authenticated using PassportJS and express-jwt. Routes are protected with JWT authentication. Admin panel made with React using TypeScript, Context API, and Styled Components. Admin panel allows Author to create, update, view, and delete blog posts and comments on posts. 
+          Users are authenticated using PassportJS and express-jwt. Routes are protected with JWT authentication. Admin panel made with React using TypeScript, Context API, and Styled Components. Admin panel allows Author to interact with posts. 
           '
         imageUrl='projects-1.jpg'
         codeUrl='https://github.com/scastoro/blog-admin'
@@ -26,7 +27,7 @@ function Projects() {
         '
         description='
           A full stack application made with Node.js, Express, MongoDB, and Pug.  Users can see current products, update
-          product information, and add new products. Products can also be viewed by category. All fields are validated server side using Express validator middleware. App uses the MVC pattern to generate views via controllers which access a MongoDB database. 
+          product information, and add new products. Products can also be viewed by category. All fields are validated server side using Express validator middleware. App uses the MVC pattern to generate views.
           '
         imageUrl='projects-2.jpg'
         codeUrl='https://github.com/scastoro/inventory-app'
