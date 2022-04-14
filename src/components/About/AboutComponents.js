@@ -55,6 +55,16 @@ export const AboutText = styled.section`
       margin-bottom: 0;
     }
   }
+  @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    padding: 0.5rem 1.5rem;
+
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.25rem;
+    }
+  }
   @media ${devices.mobileM} {
     padding: 1rem 2rem;
 
