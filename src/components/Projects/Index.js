@@ -15,7 +15,7 @@ function Projects() {
           Rest API Built with Express and MongoDB. Allows for CRUD actions via HTTP Requests. 
           Users are authenticated using PassportJS and express-jwt. Routes are protected with JWT authentication. Admin panel made with React using TypeScript, Context API, and Styled Components. Admin panel allows Author to create, update, view, and delete blog posts and comments on posts. 
           '
-        projectUrl='projects-1.jpg'
+        imageUrl='projects-1.jpg'
       />
       <StyledProject
         title='Electronics Emporium'
@@ -28,7 +28,7 @@ function Projects() {
           a form where users can enter new products. Users can see current products and update
           product information. Products can also be viewed by category. All fields are validated server side using Express validator middleware. App uses the MVC pattern to generate views via controllers which access a MongoDB database. 
           '
-        projectUrl='projects-2.jpg'
+        imageUrl='projects-2.jpg'
       />
       <StyledProject
         title='Members Only'
@@ -42,7 +42,7 @@ function Projects() {
           are stored in another collection and the two collections are related to one 
           another. The database requests are handled with the Mongoose ORM.   
           '
-        projectUrl='projects-3.jpg'
+        imageUrl='projects-3.jpg'
       />
       <StyledProject
         title='Book Bazaar'
@@ -56,7 +56,7 @@ function Projects() {
           design was created in figma and implemented using vanilla CSS. The  cart animation 
           was implemented by using the React-Transitions-Group addon.
           '
-        projectUrl='projects-4.jpg'
+        imageUrl='projects-4.jpg'
       />
     </ProjectsContainer>
   )

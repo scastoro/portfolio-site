@@ -10,7 +10,7 @@ function Project({
   title,
   summary,
   description,
-  id,
+  imageUrl,
   projectUrl,
   codeUrl,
 }) {
@@ -27,25 +27,18 @@ function Project({
   }
   const data = useStaticQuery(graphql`
     query {
-      allFile(
-        filter: {
-          name: { regex: "/projects/" }
-          childImageSharp: { fluid: {} }
-        }
-      ) {
+      allFile(filter: { name: { regex: "/projects/" } }) {
         edges {
           node {
             base
             childImageSharp {
-              gatsbyImageData(height: 321, width: 574)
+              gatsbyImageData(aspectRatio: 1.77, layout: FULL_WIDTH)
             }
           }
         }
       }
     }
   `)
-  console.log(data.allFile.edges.find(item => item.node.base === projectUrl))
-  console.log(data.allFile.edges)
   return (
     <section id='projects' className={className}>
       <ProjectImageSection
@@ -55,11 +48,11 @@ function Project({
         <section>
           <GatsbyImage
             image={
-              data.allFile.edges.find(item => item.node.base === projectUrl)
-                ?.node?.childImageSharp?.gatsbyImageData || ''
+              data.allFile.edges.find(item => item.node.base === imageUrl)?.node
+                ?.childImageSharp?.gatsbyImageData || ''
             }
             objectFit='cover'
-            alt=''
+            alt='Project'
           />
         </section>
 
@@ -74,7 +67,7 @@ function Project({
         <h3>{title}</h3>
         <p>{summary}</p>
         <section className='links'>
-          <a href={projectUrl || '#'}>
+          {/* <a href={projectUrl || '#'}>
             <StaticImage
               src='../../images/project_icon.png'
               width={20}
@@ -82,13 +75,13 @@ function Project({
               alt=''
             />
             View Project
-          </a>
+          </a> */}
           <a href={codeUrl || '#'}>
             <StaticImage
               src='../../images/code_icon.png'
               width={20}
               quality={100}
-              alt=''
+              alt='Code Icon'
             />
             View Code
           </a>

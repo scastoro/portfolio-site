@@ -37,7 +37,13 @@ function Navbar() {
           <a href='#skills'>skills</a>
         </li>
         <li>
-          <a href='#'>resume</a>
+          <a
+            href='https://1drv.ms/b/s!AvnRMsO1Aae5hYFhaqk6Ro_ERE5jqg?e=T4xVGk'
+            target='blank'
+            rel='noopener noreferrer'
+          >
+            resume
+          </a>
         </li>
         {displayNav === 'block' ? (
           <li>

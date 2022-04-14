@@ -1,7 +1,7 @@
-import React from "react"
-import { HeroContainer, HeroContent, HeroText } from "./HeroElements"
-import { StaticImage } from "gatsby-plugin-image"
-import Icon from "../../assets/main_logo.svg"
+import React from 'react'
+import { HeroContainer, HeroContent, HeroText } from './HeroElements'
+import { StaticImage } from 'gatsby-plugin-image'
+import Icon from '../../assets/main_logo.svg'
 
 function Hero() {
   return (
@@ -22,8 +22,8 @@ function Hero() {
                   src='../../images/linkedin_icon.png'
                   width={20}
                   quality={100}
-                  formats={["auto", "webp", "avif"]}
-                  alt='Hero Logo'
+                  formats={['auto', 'webp', 'avif']}
+                  alt='LinkedIn Logo'
                 />
               </a>
               <a
@@ -35,8 +35,8 @@ function Hero() {
                   src='../../images/github_icon.png'
                   width={20}
                   quality={100}
-                  formats={["auto", "webp", "avif"]}
-                  alt='Hero Logo'
+                  formats={['auto', 'webp', 'avif']}
+                  alt='Github Logo'
                 />
               </a>
             </section>
