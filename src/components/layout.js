@@ -6,6 +6,7 @@ import './layout.css'
 import { GlobalStyle } from './global'
 import Footer from './Footer/Index'
 import Header from './Header/Index'
+import { StyledScrollBtn } from './Utils/Index'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -23,6 +24,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Header />
       {children}
+      <StyledScrollBtn />
       <Footer />
     </>
   )

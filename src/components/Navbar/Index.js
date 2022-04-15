@@ -14,7 +14,7 @@ function Navbar() {
     }
   }
   return (
-    <Nav>
+    <Nav id='nav'>
       <section className='mobile-container'>
         <StaticImage
           src='../../images/logo_hi.png'
