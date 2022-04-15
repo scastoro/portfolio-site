@@ -84,7 +84,7 @@ export const HoverText = styled.section`
       line-height: 100%;
     }
     p {
-      font-size: 1.3rem;
+      font-size: 1.25rem;
     }
   }
   @media ${devices.mobileL} {
