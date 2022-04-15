@@ -48,4 +48,8 @@ export const StyledScrollBtn = styled(ScrollBtn)`
     bottom: 12px;
     right: 12px;
   }
+  @media ${devices.desktopL} {
+    bottom: 50px;
+    right: 70px;
+  }
 `

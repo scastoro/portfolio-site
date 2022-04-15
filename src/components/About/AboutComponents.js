@@ -108,6 +108,9 @@ export const AboutLink = styled.section`
   align-items: center;
 
   a {
+    height: auto;
+    width: auto;
     display: block;
+    padding: 0.5rem 1rem;
   }
 `
