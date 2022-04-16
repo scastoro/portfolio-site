@@ -44,6 +44,10 @@ export const HeroText = styled.section`
     color: #45ddf8;
   }
 
+  .socials {
+    margin-left: 0.3rem;
+  }
+
   a {
     display: inline-block;
     margin: 0.5rem 2rem 0 0;

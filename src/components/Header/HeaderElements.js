@@ -3,18 +3,13 @@ import { devices } from '../Styles/breakpoints'
 
 export const StyledHeader = styled.header`
   .background-image {
-    margin-top: -7rem;
+    margin-top: -7%;
     z-index: -1;
   }
 
   @media ${devices.mobileL} {
     .background-image {
       display: none;
-    }
-  }
-  @media ${devices.laptopL} {
-    .background-image {
-      margin-top: -11rem;
     }
   }
   @media ${devices.desktop} {
