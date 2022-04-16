@@ -43,7 +43,11 @@ export const StyledScrollBtn = styled(ScrollBtn)`
   border-radius: 50%;
   background: rgb(69, 221, 251);
   opacity: 0.8;
+  transition: opacity 0.15s ease-in;
 
+  &:hover {
+    opacity: 1;
+  }
   @media ${devices.mobileL} {
     bottom: 12px;
     right: 12px;

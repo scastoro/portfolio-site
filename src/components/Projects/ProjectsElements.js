@@ -63,8 +63,13 @@ export const HoverText = styled.section`
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0;
   height: 100%;
+  transition: opacity 0.15s ease-in;
 
+  &:hover {
+    opacity: 1;
+  }
   h3 {
     font: 700 3rem 'Oswald', sans-serif;
     margin: 5rem 0 0.5rem 0;
