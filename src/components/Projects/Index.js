@@ -18,6 +18,7 @@ function Projects() {
           '
         imageUrl='projects-1.jpg'
         codeUrl='https://github.com/scastoro/blog-admin'
+        imgDescription='code'
       />
       <StyledProject
         title='Electronics Emporium'
@@ -31,6 +32,7 @@ function Projects() {
           '
         imageUrl='projects-2.jpg'
         codeUrl='https://github.com/scastoro/inventory-app'
+        imgDescription='motherboard'
       />
       <StyledProject
         title='Members Only'
@@ -46,6 +48,7 @@ function Projects() {
           '
         imageUrl='projects-3.jpg'
         codeUrl='https://github.com/scastoro/members-only'
+        imgDescription='door'
       />
       <StyledProject
         title='Book Bazaar'
@@ -58,6 +61,7 @@ function Projects() {
           '
         imageUrl='projects-4.jpg'
         codeUrl='https://github.com/scastoro/book-bazaar'
+        imgDescription='bookshelf'
       />
     </ProjectsContainer>
   )
