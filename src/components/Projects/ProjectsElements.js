@@ -113,8 +113,8 @@ export const ProjectText = styled.section`
     padding: 0.75rem 2.2rem;
     transition: opacity 0.15s ease-in;
 
-    .gatsby-image-wrapper {
-      margin-right: 0.25rem;
+    .code-icon {
+      margin-right: 0.75rem;
     }
 
     &:hover {

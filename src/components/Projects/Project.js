@@ -84,6 +84,7 @@ function Project({
               src='../../images/code_icon.png'
               width={20}
               quality={100}
+              className='code-icon'
               alt='Code Icon'
             />
             View Code
