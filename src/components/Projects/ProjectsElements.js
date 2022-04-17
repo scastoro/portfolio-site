@@ -111,6 +111,7 @@ export const ProjectText = styled.section`
     font: 600 1.4rem 'Open Sans', sans-serif;
     color: #151517;
     padding: 0.75rem 2.2rem;
+    transition: opacity 0.15s ease-in;
 
     .gatsby-image-wrapper {
       margin-right: 0.25rem;

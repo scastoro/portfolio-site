@@ -107,6 +107,7 @@ export const ContactButton = styled.button`
   align-self: center;
   font: 600 1.5rem 'Open Sans', sans-serif;
   cursor: pointer;
+  transition: opacity 0.15s ease-in;
 
   &:hover {
     opacity: 0.75;

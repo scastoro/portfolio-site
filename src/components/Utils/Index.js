@@ -19,6 +19,7 @@ export const StyledLink = styled.a`
   color: #151517;
   z-index: 1;
   cursor: pointer;
+  transition: opacity 0.15s ease-in;
 
   &:hover {
     opacity: 0.75;
@@ -45,6 +46,7 @@ export const StyledScrollBtn = styled(ScrollBtn)`
   opacity: 0.8;
   transition: opacity 0.15s ease-in;
   border: none;
+  cursor: pointer;
 
   &:hover {
     opacity: 1;

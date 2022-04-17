@@ -76,6 +76,7 @@ export const NavUl = styled.ul`
   li {
     margin: 0rem 5rem;
     font-size: 1.9rem;
+    transition: opacity 0.15s ease-in;
 
     &:hover {
       opacity: 0.75;
@@ -120,6 +121,7 @@ export const StyledButton = styled(Link)`
   text-align: center;
   color: #151517;
   z-index: 1;
+  transition: opacity 0.15s ease-in;
 
   &:hover {
     opacity: 0.75;

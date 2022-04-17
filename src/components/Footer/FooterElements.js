@@ -74,6 +74,11 @@ export const HelloSection = styled.section`
     display: inline-block;
     margin: 0.75rem 1rem 0;
     font: 400 1.35rem 'Poppins', sans-serif;
+    transition: opacity 0.15s ease-in;
+
+    &:hover {
+      opacity: 0.75;
+    }
   }
   @media ${devices.mobileL} {
     margin-bottom: 3rem;
@@ -108,6 +113,7 @@ export const SocialMediaSection = styled.section`
     display: inline-block;
     margin: 0.75rem 1rem 0;
     font: 400 1.35rem 'Poppins', sans-serif;
+    transition: opacity 0.15s ease-in;
 
     &:hover {
       opacity: 0.75;

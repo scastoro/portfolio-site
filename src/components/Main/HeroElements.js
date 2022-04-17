@@ -51,6 +51,11 @@ export const HeroText = styled.section`
   a {
     display: inline-block;
     margin: 0.5rem 2rem 0 0;
+    transition: opacity 0.15s ease-in;
+
+    &:hover {
+      opacity: 0.75;
+    }
   }
   @media ${devices.mobileL} {
     h2 {
