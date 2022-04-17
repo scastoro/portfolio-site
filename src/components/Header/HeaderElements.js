@@ -7,6 +7,11 @@ export const StyledHeader = styled.header`
     z-index: -1;
   }
 
+  @media only screen and (max-width: 1450px) and (min-width: 1300px) {
+    .background-image {
+      margin-top: -7.5%;
+    }
+  }
   @media ${devices.mobileL} {
     .background-image {
       display: none;
