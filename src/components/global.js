@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   html {
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
   }
   a{
     color: inherit;

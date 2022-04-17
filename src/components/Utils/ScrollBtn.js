@@ -2,8 +2,13 @@ import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 
 function ScrollBtn({ className }) {
+  const scrollToTop = () => {
+    if (window !== undefined) {
+      window.scrollTo(0, 0)
+    }
+  }
   return (
-    <a className={className} href='#nav'>
+    <button className={className} onClick={scrollToTop}>
       <StaticImage
         src='../../images/arrow_up.png'
         alt=''
@@ -12,7 +17,7 @@ function ScrollBtn({ className }) {
         loading='eager'
         placeholder='blurred'
       />
-    </a>
+    </button>
   )
 }
 

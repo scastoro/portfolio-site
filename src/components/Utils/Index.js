@@ -44,6 +44,7 @@ export const StyledScrollBtn = styled(ScrollBtn)`
   background: rgb(69, 221, 251);
   opacity: 0.8;
   transition: opacity 0.15s ease-in;
+  border: none;
 
   &:hover {
     opacity: 1;
