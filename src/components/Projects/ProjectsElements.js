@@ -137,6 +137,10 @@ export const ProjectText = styled.section`
       a {
         font-size: 1.25rem;
         padding: 0.75rem 1.5rem;
+
+        &:hover {
+          opacity: 1;
+        }
       }
     }
     h3 {

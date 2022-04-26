@@ -49,7 +49,12 @@ function Navbar() {
         {displayNav === 'block' ? (
           <li>
             {' '}
-            <StyledButton style={{ display: 'flex' }}>Let's Chat</StyledButton>
+            <StyledButton
+              onClick={() => scrollTo('#contact')}
+              style={{ display: 'flex' }}
+            >
+              Let's Chat
+            </StyledButton>
           </li>
         ) : null}
       </NavUl>

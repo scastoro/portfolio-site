@@ -54,6 +54,10 @@ export const StyledScrollBtn = styled(ScrollBtn)`
   @media ${devices.mobileL} {
     bottom: 12px;
     right: 12px;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
   @media ${devices.desktopL} {
     bottom: 50px;
