@@ -1,6 +1,7 @@
 import { Nav, NavUl, StyledButton } from './NavbarElements'
 import { StaticImage } from 'gatsby-plugin-image'
 import Menu from '../../assets/menu_icon.svg'
+import scrollTo from 'gatsby-plugin-smoothscroll'
 
 import React, { useState } from 'react'
 
@@ -28,13 +29,13 @@ function Navbar() {
       </section>
       <NavUl style={{ display: displayNav || '' }}>
         <li>
-          <a href='#projects'>projects</a>
+          <a onClick={() => scrollTo('#projects')}>projects</a>
         </li>
         <li>
-          <a href='#about'>about</a>
+          <a onClick={() => scrollTo('#about')}>about</a>
         </li>
         <li>
-          <a href='#skills'>skills</a>
+          <a onClick={() => scrollTo('#skills')}>skills</a>
         </li>
         <li>
           <a
@@ -48,13 +49,13 @@ function Navbar() {
         {displayNav === 'block' ? (
           <li>
             {' '}
-            <StyledButton style={{ display: 'flex' }} to='#contact'>
-              Let's Chat
-            </StyledButton>
+            <StyledButton style={{ display: 'flex' }}>Let's Chat</StyledButton>
           </li>
         ) : null}
       </NavUl>
-      <StyledButton to='#contact'>Let's Chat </StyledButton>
+      <StyledButton onClick={() => scrollTo('#contact')}>
+        Let's Chat{' '}
+      </StyledButton>
     </Nav>
   )
 }

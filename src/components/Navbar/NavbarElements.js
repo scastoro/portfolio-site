@@ -105,7 +105,7 @@ export const NavUl = styled.ul`
   }
 `
 
-export const StyledButton = styled(Link)`
+export const StyledButton = styled.button`
   width: 14rem;
   height: 3rem;
   display: flex;
@@ -122,6 +122,8 @@ export const StyledButton = styled(Link)`
   color: #151517;
   z-index: 1;
   transition: opacity 0.15s ease-in;
+  border: none;
+  cursor: pointer;
 
   &:hover {
     opacity: 0.75;

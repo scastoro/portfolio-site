@@ -6,13 +6,13 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
   html {
-    font-size: 10px;
+    font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
   }
   a{
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
   }
   body{
     background: #151517;
